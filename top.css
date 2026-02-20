@@ -1,0 +1,25 @@
+
+.wrapper{max-width: 1300px;
+margin: auto;
+}
+
+
+/* 1. Делаем отступы видимыми */
+.slider .slick-slide {
+    padding: 0 10px !important;
+}
+
+
+.slider .slick-slide img {
+    
+    height: 400px;
+      
+  }
+/* 3. Картинка внутри */
+@media(max-width:480){
+    .slider .slick-slide img {
+    width: 200px;
+    height: 200px;
+      
+  }
+}
